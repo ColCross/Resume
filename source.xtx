@@ -1,236 +1,252 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy - One Page Two Column Resume
-% LaTeX Template
-% Version 1.1 (30/4/2014)
-%
-% Original author:
-% Debarghya Das (http://debarghyadas.com)
-%
-% Original repository:
-% https://github.com/deedydas/Deedy-Resume
-%
-% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
-%
-% This template uses several fonts not included with Windows/Linux by
-% default. If you get compilation errors saying a font is missing, find the line
-% on which the font is used and either change it to a font included with your
-% operating system or comment the line out to use the default font.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\documentclass[]{deedy-resume-openfont}
-
-
-\begin{document}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     LAST UPDATED DATE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\lastupdated
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     TITLE NAME
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\namesection{Colten}{Cross}{ \urlstyle{same}\url{www.coltencross.com} \\
-\href{mailto:colten@coltencross.com}{colten@coltencross.com} | (762) 207-0132
-}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN ONE
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\begin{minipage}[t]{0.33\textwidth} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EDUCATION
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Education} 
-
-\subsection{Georgia State University}
-
-\descript{BS in Physics}
-\location{Expected May 2017 | Atlanta, GA}
-Conc. in Computer Science \\
-College of Arts and Sciences \\
-Honors College \\
-\location{ Cum. GPA: 3.5 / 4.0 \\
-Major GPA: 3.3 / 4.0}
-\sectionsep
-
-\subsection{Northside High School}
-\location{Grad. May 2013 |  Columbus, GA}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Github:// \href{https://github.com/ColCross}{\custombold{ColCross}} \\
-LinkedIn://  \href{https://www.linkedin.com/in/coltencross}{\custombold{ColtenCross}} \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Undergraduate}
-\location{Computer Science}
-Software Engineering \\
-Web Development \\
-Data Structures \\
-System-Level Programming \\
-Robotics Engineering 1 \\
-\location{Physics}
-Electronics \\
-Modern Physics \\
-Statistical and Thermal Physics \\
-Calculus I, II, III \\
-Differential Equations \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Programming}
-\location{Advanced}
-Java \textbullet{} Shell \textbullet{} Git \\
-\location{Knowledgeable}
-HTML \textbullet{} CSS \textbullet{} PHP \textbullet{} JS/Node.js \\
-SQL \textbullet{} Polymer \textbullet{} C \\
-\location{Operating Systems}
-OSX \textbullet{} Windows \textbullet{} Unix \\
-
-\subsection{Software}
-MS Word, Excel, PowerPoint  \\
-Autodesk Inventor \\
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%     COLUMN TWO
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\end{minipage} 
-\hfill
-\begin{minipage}[t]{0.66\textwidth} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-
-\runsubsection{GSU}
-\descript{| Learning Assistant - PHYS 2212k}
-\location{Jan 2017 – Present | Atlanta, GA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Lead 3 one-hour tutorial sessions for calc-based Intro Physics students.
-\item Provide direction and explain key concepts.
-\item Grade homework and return in a timely manner.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{GSU}
-\descript{| Teaching Assistant - PHYS 1112k }
-\location{Sep 2016 – Dec 2016 | Atlanta, GA}
-\begin{tightemize}
-\item Coordinated with instructor to ensure students were taught material consistently.
-\item Supervised lab activities to provide guidance and maintain a productive work environment.
-\item Adapted to individual students’ learning styles in order to effectively explain subject material.
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Aerotek}
-\descript{| Simulation Interactor}
-\location{Summer 2015 \& Summer 2016 | Fort Benning, GA}
-\begin{tightemize}
-\item Developed strategies and worked with team to execute simulated missions
-\item Obtained secret-level security clearance and maintained secret-level information.
-\item Provided man-machine interface in Army’s operation of a future invasion scenario.
-\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Projects}
-\runsubsection{muon Telescope}
-\descript{| www.muontelescope.com}
-\location{Jan 2017 – Present | Atlanta, GA}
-Assisted in designing and implementing a modular website for displaying data from Georgia State University's cosmic ray detector network. Utilized Polymer to implement front-end web design, and Node.js and MySQL for back-end database querying and management.
-\sectionsep
-
-\runsubsection{Overdrive}
-\descript{| Software Engineering Final Project}
-\location{Jan 2017 – Present | Atlanta, GA}
-Worked as a team through every stage of the software development process including design, documentation, and implementation. Utilized Java and MySQL to implement database for app information storage.
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Clearances and Certifications} 
-\location{ \ }
-\begin{tightemize}
-\item Secret-Level Security Clearance  \\
-\item CompTIA Security+ Certification  \\
-\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SOCIETIES
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Societies} 
-
-\begin{tabular}{rll}
-2014   &  National  & National Society of Collegiate Scholars\\
-2012   &  National   & National Honor Society\\
-\end{tabular}
-\sectionsep
-
-\end{minipage} 
-\end{document}  \documentclass[]{article}
+\f0\fs24 \cf0 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+% Deedy - One Page Two Column Resume\
+% LaTeX Template\
+% Version 1.1 (30/4/2014)\
+%\
+% Original author:\
+% Debarghya Das (http://debarghyadas.com)\
+%\
+% Original repository:\
+% https://github.com/deedydas/Deedy-Resume\
+%\
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX\
+%\
+% This template uses several fonts not included with Windows/Linux by\
+% default. If you get compilation errors saying a font is missing, find the line\
+% on which the font is used and either change it to a font included with your\
+% operating system or comment the line out to use the default font.\
+% \
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+% \
+% TODO:\
+% 1. Integrate biber/bibtex for article citation under publications.\
+% 2. Figure out a smoother way for the document to flow onto the next page.\
+% 3. Add styling information for a "Projects/Hacks" section.\
+% 4. Add location/address information\
+% 5. Merge OpenFont and MacFonts as a single sty with options.\
+% \
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+% CHANGELOG:\
+% v1.1:\
+% 1. Fixed several compilation bugs with \\renewcommand\
+% 2. Got Open-source fonts (Windows/Linux support)\
+% 3. Added Last Updated\
+% 4. Move Title styling into .sty\
+% 5. Commented .sty file.\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+% Known Issues:\
+% 1. Overflows onto second page if any column's contents are more than the\
+% vertical limit\
+% 2. Hacky space on the first bullet point on the second column.\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\documentclass[]\{deedy-resume-openfont\}\
+\
+\
+\\begin\{document\}\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+%     LAST UPDATED DATE\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\\lastupdated\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+%     TITLE NAME\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\
+\\namesection\{Colten\}\{Cross\}\{ \\urlstyle\{same\}\\url\{www.coltencross.com\} \\\\\
+\\href\{mailto:colten@coltencross.com\}\{colten@coltencross.com\} | (762) 207-0132\
+\}\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Objectives\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\begin\{flushleft\}\
+\\section\{Objective\}\
+\\location\{Seeking opportunities for training in Software Development or Information Security.\}\
+\\end\{flushleft\}\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+%     COLUMN ONE\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\begin\{minipage\}[t]\{0.33\\textwidth\} \
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     EDUCATION\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Education\} \
+\
+\\subsection\{Georgia State University\}\
+\\location\{May 2017 | Atlanta, GA\}\
+\\descript\{BS in Physics\}\
+Computer Science Concentration\
+\\location\{ Cum. GPA: 3.47 / 4.0 \}\
+\\sectionsep\
+\
+\\subsection\{Northside High School\}\
+\\location\{May 2013 |  Columbus, GA\}\
+Engineering Magnet and AP Classes \\\\\
+\\location\{ Cum. GPA: 3.9 / 4.0 \}\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     LINKS\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Links\} \
+Github:// \\href\{https://github.com/ColCross\}\{\\custombold\{ColCross\}\} \\\\\
+LinkedIn://  \\href\{https://www.linkedin.com/in/coltencross\}\{\\custombold\{ColtenCross\}\} \\\\\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     COURSEWORK\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Coursework\}\
+Software Engineering \\\\\
+Web Development \\\\\
+Data Structures \\\\\
+System-Level Programming \\\\\
+Mathematical Models of Comp Sci \\\\\
+Linear Algebra \\\\\
+Robotics Engineering 1 \\\\\
+Electronics \\\\\
+Modern Physics \\\\\
+Statistical and Thermal Physics \\\\\
+Calculus I, II, III \\\\\
+Differential Equations \\\\\
+Classical Mechanics \\\\\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Certifications\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Certifications\}\
+\\location\{CompTIA Security+ Certification\}\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Clearance\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Clearance\}\
+\\location\{Secret-Level Security Clearance\}\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     SOCIETIES\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Societies\} \
+\
+2016 - Sigma Pi Sigma (Physics Honor Society)\\\\\
+2014 - National Society of Collegiate Scholars\\\\\
+2012 - National Honor Society\\\\\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%\
+%     COLUMN TWO\
+%\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\end\{minipage\} \
+\\hfill\
+\\begin\{minipage\}[t]\{0.66\\textwidth\}\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     SKILLS\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Skills\}\
+\\descript\{Programming Languages / Frameworks\}\
+Java \\textbullet\{\} HTML/CSS \\textbullet\{\} JS \\textbullet\{\} PHP \\textbullet\{\} SQL \\textbullet\{\} C \\textbullet\{\} Polymer \\textbullet\{\} Bootstrap \\textbullet\{\} jQuery\\\\\
+\\descript\{Operating Systems\}\
+OSX \\textbullet\{\} Windows \\textbullet\{\} Linux \\\\\
+\\descript\{Software\}\
+Word, Excel, PowerPoint, Autodesk Inventor \\\\\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     EXPERIENCE\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Work Experience\}\
+\
+\\runsubsection\{GSU\}\
+\\descript\{| Teaching and Learning Assistant\}\
+\\location\{Sep 2016 \'96 May 2017 | Atlanta, GA\}\
+\\vspace\{\\topsep\} % Hacky fix for awkward extra vertical space\
+\\begin\{tightemize\}\
+\\item Led tutorial sessions for calc-based Intro Physics students.\
+\\item Supervised lab activities to provide guidance and maintain a productive work environment.\
+\\item Responsible for grading and returning assignments.\
+\\end\{tightemize\}\
+\\sectionsep\
+\
+\\runsubsection\{Aerotek\}\
+\\descript\{| Simulation Interactor\}\
+\\location\{Summer 2015 \\& Summer 2016 | Fort Benning, GA\}\
+\\begin\{tightemize\}\
+\\item Developed strategies and worked with team to execute simulated missions.\
+\\item Obtained secret-level security clearance and maintained secret-level information.\
+\\item Provided man-machine interface in Army\'92s operation of a future invasion scenario.\
+\\end\{tightemize\}\
+\\sectionsep\
+\
+\\runsubsection\{Columbus State University\}\
+\\descript\{| Peer Instruction Leader\}\
+\\location\{Jan 2014 - May 2014 | Columbus, GA\}\
+\\begin\{tightemize\}\
+\\item Designed instructional tasks and conducted tutoring sessions three times a week for up to ten students at a time. \
+\\item Observed professor-instructed lectures to improve coherence of instructional materials used at tutoring sessions.\
+\\end\{tightemize\}\
+\\sectionsep\
+\
+\\descript\{Additional Work Experience\}\
+\\begin\{tightemize\}\
+\\item Coca-Cola Space Science Center \'96 Student Assistant  (Summer 2014)\
+\\item The Egg and I \'96 Bus Staff  (Aug 2013 - Dec 2013)\
+\\end\{tightemize\}\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Projects\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Projects\}\
+\\runsubsection\{Muon Telescope\}\
+\\descript\{| \\urlstyle\{same\}\\url\{www.muontelescope.com\}\}\
+\\location\{Jan 2017 \'96 Present | Atlanta, GA\}\
+Assisted in designing and implementing a modular website for displaying data from Georgia State University's cosmic ray detector network. Utilized Polymer to implement front-end web design, and MySQL for back-end database querying and management.\
+\\sectionsep\
+\
+\\runsubsection\{Overdrive\}\
+\\descript\{| Software Engineering Final Project\}\
+\\location\{Jan 2017 \'96 April 2017 | Atlanta, GA\}\
+Worked as a team through every stage of the software development process including design, documentation, and implementation. Utilized Java and SQLite to implement design requirements.\
+\\sectionsep\
+\
+\\end\{minipage\} \
+\\end\{document\}  \\documentclass[]\{article\}}
