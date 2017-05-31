@@ -99,7 +99,7 @@
 \\subsection\{Georgia State University\}\
 \\location\{May 2017 | Atlanta, GA\}\
 \\descript\{BS in Physics\}\
-Computer Science Concentration\
+\\descript\{Computer Science Conc.\}\
 \\location\{ Cum. GPA: 3.47 / 4.0 \}\
 \\sectionsep\
 \
@@ -116,6 +116,23 @@ Engineering Magnet and AP Classes \\\\\
 \\section\{Links\} \
 Github:// \\href\{https://github.com/ColCross\}\{\\custombold\{ColCross\}\} \\\\\
 LinkedIn://  \\href\{https://www.linkedin.com/in/coltencross\}\{\\custombold\{ColtenCross\}\} \\\\\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Certifications\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Certifications\}\
+\\descript\{CompTIA Security+ Cert.\}\
+\\sectionsep\
+\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+%     Clearance\
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
+\
+\\section\{Clearance\}\
+\\descript\{Secret Security Clearance\}\
+- US Army \\\\\
 \\sectionsep\
 \
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
@@ -136,22 +153,6 @@ Statistical and Thermal Physics \\\\\
 Calculus I, II, III \\\\\
 Differential Equations \\\\\
 Classical Mechanics \\\\\
-\\sectionsep\
-\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
-%     Certifications\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
-\
-\\section\{Certifications\}\
-\\location\{CompTIA Security+ Certification\}\
-\\sectionsep\
-\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
-%     Clearance\
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
-\
-\\section\{Clearance\}\
-\\location\{Secret-Level Security Clearance\}\
 \\sectionsep\
 \
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\
